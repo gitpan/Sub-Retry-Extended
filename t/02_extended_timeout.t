@@ -27,10 +27,10 @@ use Time::HiRes qw/sleep/;
         delay => 0,
         code => sub {
             $i++;
-            sleep 0.03;
+            sleep 0.3;
             die;
         },
-        total_timeout => 0.1,
+        total_timeout => 1,
     );
     is $i, 4;
 }
