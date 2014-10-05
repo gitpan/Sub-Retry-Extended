@@ -7,7 +7,7 @@ use parent qw/Exporter/;
 
 our @EXPORT = qw/retryX/;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 sub retryX {
     my (%args) = @_;
@@ -141,7 +141,7 @@ below params are extended.
 
 =back
 
-B<NOTE> that C<each_timeout> does not include C<delay> time.
+B<NOTE> that if timeout was invoked, die with an 'retry timeout' message.
 
 
 =head1 REPOSITORY
