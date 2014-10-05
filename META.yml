@@ -16,7 +16,7 @@ name: Sub-Retry-Extended
 provides:
   Sub::Retry::Extended:
     file: lib/Sub/Retry/Extended.pm
-    version: 0.02
+    version: 0.03
 requires:
   Carp: 0
   Exporter: 0
@@ -27,4 +27,4 @@ resources:
   bugtracker: http://github.com/bayashi/Sub-Retry-Extended/issues
   license: http://dev.perl.org/licenses/
   repository: http://github.com/bayashi/Sub-Retry-Extended
-version: 0.02
+version: 0.03

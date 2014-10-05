@@ -1,5 +1,10 @@
 Revision history for Perl extension Sub::Retry::Extended
 
+0.03    Sun Oct  5 10:37:23 JST 2014
+        - do die when timeout is happened.
+        - refactor: an timeout timing.
+        - add tests
+
 0.02    Sun Oct  5 01:42:21 JST 2014
         - fix test
 

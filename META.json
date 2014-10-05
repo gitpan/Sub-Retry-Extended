@@ -37,7 +37,7 @@
    "provides" : {
       "Sub::Retry::Extended" : {
          "file" : "lib/Sub/Retry/Extended.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -52,5 +52,5 @@
          "url" : "http://github.com/bayashi/Sub-Retry-Extended"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
