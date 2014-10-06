@@ -7,7 +7,7 @@ use parent qw/Exporter/;
 
 our @EXPORT = qw/retryX/;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 sub retryX {
     my (%args) = @_;

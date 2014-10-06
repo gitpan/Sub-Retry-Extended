@@ -58,7 +58,7 @@ use Time::HiRes qw/sleep/;
             total_timeout => 0.1,
         );
     };
-    is $i, 2;
+    ok($i <= 2);
     like $@, qr/^retry timeout: total/;
 }
 

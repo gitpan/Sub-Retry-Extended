@@ -1,5 +1,8 @@
 Revision history for Perl extension Sub::Retry::Extended
 
+0.05    Tue Oct  7 07:57:38 JST 2014
+        - fix test
+
 0.04    Sun Oct  5 10:49:35 JST 2014
         - fix POD
 
